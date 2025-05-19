@@ -18,7 +18,7 @@ const experiences = [
     type: "Internship",
     date: "Jan 2025 – April 2025",
     points: [
-      "Built an AI-powered newsletter chatbot using OpenAI, Python, ChromaDB, SQLite, and Streamlit.",
+      "Built an AI newsletter chatbot using OpenAI, Python, ChromaDB, SQLite, and Streamlit.",
       "Automated biweekly newsletter delivery using Airflow to surface cloud, AI, and data analytics articles."
     ]
   },
