@@ -11,32 +11,26 @@ export default function Home() {
           Hi, I’m <span className="text-[#7d4e57] dark:text-yellow-300">Suha</span>.
         </h1>
         <p className="text-base sm:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-          I craft thoughtful digital experiences as a software developer, engineer, and runner in training for the 2028 Olympics.
-          My work lives at the intersection of performance, design, and problem-solving.
+            I'm a Computer Engineering Graduate from  <span className="text-[#7d4e57] dark:text-yellow-300">Toronto Metropolitan University.</span> I'm a curious and driven learner with a strong passion for software development, data engineering, and building systems that solve real-world problems. I enjoy the process of learning new technologies, experimenting with ideas, and turning complex data into meaningful insights.
         </p>
+        <p className="text-base sm:text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4">
+  Outside of work I really enjoy playing guitar, collecting old film cameras, doing bikepacking trip and reading. 
+</p>
         <div className="space-x-4">
-          <Link to="/projects" className="underline hover:text-[#7d4e57] dark:hover:text-yellow-300">See My Work</Link>
-          <Link to="/contact" className="underline hover:text-[#7d4e57] dark:hover:text-yellow-300">Contact</Link>
-        </div>
+  <Link to="/projects" className="underline hover:text-[#7d4e57] dark:hover:text-yellow-300">See My Work</Link>
+  <Link to="/experience" className="underline hover:text-[#7d4e57] dark:hover:text-yellow-300">Experience</Link>
+</div>
+
       </section>
 
-      {/* TLDR Section */}
-      <section className="max-w-3xl mx-auto mt-16 space-y-4 text-sm text-gray-600 dark:text-gray-400 px-2">
-        <h2 className="font-semibold uppercase tracking-wide text-xs text-[#7d4e57] dark:text-yellow-300">TL;DR</h2>
-        <ul className="list-disc pl-5 space-y-1">
-          <li>Currently building full-stack apps using React, TypeScript, and Python</li>
-          <li>Fascinated by the overlap of storytelling and software</li>
-          <li>Training for long-distance running (5K, 10K)</li>
-        </ul>
-      </section>
 
       {/* Social Section */}
       <section className="max-w-3xl mx-auto mt-12 px-2">
         <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">Elsewhere:</p>
         <div className="flex flex-wrap gap-4 text-sm">
-          <a href="https://github.com" className="underline hover:text-[#7d4e57] dark:hover:text-yellow-300">GitHub</a>
+          <a href="https://github.com/suha-neshat" className="underline hover:text-[#7d4e57] dark:hover:text-yellow-300">GitHub</a>
           <a href="https://linkedin.com" className="underline hover:text-[#7d4e57] dark:hover:text-yellow-300">LinkedIn</a>
-          <a href="mailto:suha@example.com" className="underline hover:text-[#7d4e57] dark:hover:text-yellow-300">Email</a>
+          <a href="mailto:suhaneshat@gmail.com" className="underline hover:text-[#7d4e57] dark:hover:text-yellow-300">Email</a>
         </div>
       </section>
     </div>

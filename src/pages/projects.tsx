@@ -2,18 +2,18 @@ import React from "react";
 
 const projects = [
   {
-    title: "Olympics Data Analysis with Azure",
-    description: "Built predictive models and dashboards for athlete performance analytics.",
+    title: "Paris Olympics Data Analysis Using Azure",
+    description: "Data Engineering project focusing on the analysis of Paris Olympic Data using Microsoft Azure, Azure Data Lake, ADF, Databricks, Power BI",
     link: "#"
   },
   {
-    title: "Invoice Tracker RAG App",
-    description: "Extracted and summarized invoice data using LangChain and OpenAI.",
+    title: "Mandelbrot & Julia Set Fractal Generator",
+    description: "Generates stunning mandelbrot and Julia set fratals with color schemes and produces high resolution 16k images and supports 5000 iterations per pixel. Tools used: C++",
     link: "#"
   },
   {
-    title: "Running Shoe Recommender",
-    description: "A web app using TypeScript that suggests shoes based on user input.",
+    title: "Spotify Mood Playlist",
+    description: "C# web app that lets user login with Spotify, select a mood and recieve a playlist. Tools used are : C#/ ASP.Net Core, Tailwind, SpotifyAPI-NET, SQL.",
     link: "#"
   }
 ];
