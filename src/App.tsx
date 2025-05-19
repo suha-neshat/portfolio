@@ -3,12 +3,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Experience from "./pages/Experience";
+
+import Projects from "./pages/projects";
+import Experience from "./pages/experience";
 import Art from "./pages/Art";
-import Contact from "./pages/Contact";
-import ThemeToggle from "./components/ThemeToggle"; // 💡 Lightbulb toggle
+import Contact from "./pages/contact";
+import ThemeToggle from "./components/themetoggle"; // 💡 Lightbulb toggle
 
 export default function App() {
   return (
