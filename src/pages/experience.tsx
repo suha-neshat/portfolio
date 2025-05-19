@@ -11,15 +11,7 @@ const experiences = [
       "Specializing in mid-distance running with a 5K personal record of 15:05."
     ]
   },
-  {
-    title: "Software Developer",
-    company: "Shopify",
-    type: "Full-time",
-    date: "June 2025 – Present",
-    points: [
-      "Payment Team workingf as Data Engineer."
-    ]
-  },
+  
   {
     title: "Software Developer Intern",
     company: "Ontario Teachers’ Pension Plan",
