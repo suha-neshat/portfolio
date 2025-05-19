@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 
 export default function Home() {
   return (
