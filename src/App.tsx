@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 
 import Projects from "./pages/projects";
 import Experience from "./pages/experience";
-import Art from "./pages/Art";
 import Contact from "./pages/contact";
 import ThemeToggle from "./components/themetoggle"; // 💡 Lightbulb toggle
 
