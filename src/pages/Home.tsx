@@ -12,7 +12,7 @@ export default function Home() {
           Hi, I’m <span className="text-[#7d4e57] dark:text-yellow-300">Suha</span>.
         </h1>
         <p className="text-base sm:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-            I'm a Computer Engineering Graduate from  <span className="text-[#7d4e57] dark:text-yellow-300">Toronto Metropolitan University.</span> I'm a curious and driven learner with a strong passion for software development, data engineering, and building systems that solve real-world problems. I enjoy the process of learning new technologies, experimenting with ideas, and turning complex data into meaningful insights.
+            I'm a Computer Engineering Graduate from  <span className="text-[#7d4e57] dark:text-yellow-300">Toronto Metropolitan University.</span> I'm curious and driven learner with a strong passion for software development, data engineering, and building systems that solve real-world problems. I enjoy the process of learning new technologies, experimenting with ideas, and turning complex data into meaningful insights.
         </p>
         <p className="text-base sm:text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4">
   Outside of work I really enjoy playing guitar, collecting old film cameras, doing bikepacking trip and reading. 

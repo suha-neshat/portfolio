@@ -28,7 +28,9 @@ const experiences = [
     type: "Internship",
     date: "Jan 2024 – May 2024",
     points: [
-      "Developed a testing utility using Java, JavaScript, HTML/CSS, SQL, and RPG."
+      "Backend testing utility in C#/ASP.NET, contributed to deployment workflows AKS",
+      "Created POCs for airflow and pipelines on AKS"
+
     ]
   },
   {
