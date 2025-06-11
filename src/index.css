@@ -2,18 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600;800&family=Satoshi:wght@400;500&display=swap');
 
-/* Base layer ensures custom CSS isn't purged in production */
-@layer base {
-  body {
-    font-family: 'Inter', sans-serif;
-    background-color: #fef9f2; /* Light mode default */
-    color: #000000;
-  }
-
-  html.dark body {
-    background-color: #1a1a1a; /* Dark mode default */
-    color: #ffffff;
-  }
+body {
+  font-family: 'Satoshi', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+h1, h2 {
+  font-family: 'EB Garamond', serif;
 }

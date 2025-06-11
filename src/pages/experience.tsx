@@ -1,36 +1,27 @@
+
 import React from "react";
+import { motion } from "framer-motion";
 
 const experiences = [
-  {
-    title: "Professional Athlete",
-    company: "HOKA",
-    type: "Full-time",
-    date: "April 2025 – Present",
-    points: [
-      "Training professionally with HOKA to qualify for the 2028 Olympics.",
-      "Specializing in mid-distance running with a 5K personal record of 15:05."
-    ]
-  },
-  
   {
     title: "Software Developer Intern",
     company: "Ontario Teachers’ Pension Plan",
     type: "Internship",
     date: "Jan 2025 – April 2025",
     points: [
-      "Built an AI newsletter chatbot using OpenAI, Python, ChromaDB, SQLite, and Streamlit.",
-      "Automated biweekly newsletter delivery using Airflow to surface cloud, AI, and data analytics articles."
+      "Built an AI system using embeddings, cosine similarity, and LLMs to analyze tech trends and update insights via a Streamlit dashboard.",
+      "Implemented data pipelines with SQL and Snowflake to enhance data flow and accessibility.",
+      "Developed and tuned LlamaIndex agents to run MDX queries, visualize risk exposure."
     ]
   },
   {
     title: "Software Developer Intern",
     company: "Ontario Teachers’ Pension Plan",
     type: "Internship",
-    date: "Jan 2024 – May 2024",
+    date: "Jan 2024 – Aug 2024",
     points: [
-      "Backend testing utility in C#/ASP.NET, contributed to deployment workflows AKS",
-      "Created POCs for airflow and pipelines on AKS"
-
+      "Automated workflows using C#, SQL and Jenkins, contributed to deployment workflows AKS",
+      "Created POCs for Airflow and pipelines on AKS"
     ]
   },
   {
@@ -53,11 +44,17 @@ export default function Experience() {
 
       <div className="relative border-l-2 border-gray-300 dark:border-gray-600 pl-6 space-y-12 max-w-3xl mx-auto">
         {experiences.map((exp, i) => (
-          <div key={i} className="relative">
+          <motion.div
+            key={i}
+            className="relative"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: i * 0.2 }}
+          >
             {/* Timeline Dot */}
-            <div className="absolute left-[-15px] top-1 w-3.5 h-3.5 rounded-full bg-rose-600 border-2 border-white dark:border-black" />
+            <div className="absolute left-[-15px] top-1 w-3.5 h-3.5 rounded-full bg-accent border-2 border-white dark:border-black" />
 
-            {/* Entry */}
             <p className="text-sm text-gray-500 dark:text-gray-400 capitalize tracking-wide">{exp.date}</p>
             <h2 className="text-lg md:text-xl font-semibold mt-1">{exp.title}</h2>
             <p className="text-sm text-[#7d4e57] dark:text-yellow-300 font-medium mb-2">
@@ -68,7 +65,7 @@ export default function Experience() {
                 <li key={idx}>{point}</li>
               ))}
             </ul>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
